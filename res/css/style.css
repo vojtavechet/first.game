@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+*{
+   font-family: 'VT323', monospace;
+}
+
+/* index . nation */
+.uvod_foto{
+   background-image: url("/res/img/lock.png");
+   background-repeat: no-repeat;
+   background-position:right;
+   background-attachment: fixed;
+   background-size: cover;
+}
+#center{
+  width: 99%;
+  text-align: center;
+  margin-top: 25%;
+}
+#start{
+   position: relative;
+   width: 300px;
+   height: 150px;
+   font-size: 50px;
+   cursor: pointer;
+}
+#choose{
+   color: aliceblue;
+   font-size: 40px;
+   position: absolute;
+   margin-top: 50px;
+   text-align: center;
+   width: 99%;
+}
+#ronaldo{
+   margin-top: 300px;
+   width:450px;
+   height: 500px;
+   cursor: pointer;
+}
+#messi{
+margin-top: 300px;
+   width:500px;
+   height: 500px;
+   cursor: pointer;
+}
+@media only screen and (max-width: 900px) {
+   #messi , #ronaldo{
+      width:100%;
+      height: 100%;
+   }
+ }
+ .float {
+   margin: 20px;
+   
+}
+.box {
+   width: 49%;
+   float: left;
+   text-align: center;
+}  
+
+/* home */
+
+.home{
+   background-image: url("/res/img/home.png");
+   background-repeat: no-repeat;
+   background-position:center center;
+   background-attachment: fixed;
+   background-size: cover;
+}
+
+#obal_menu {
+   text-align: center;
+}
+.box_home {
+   float: left;
+   width: 33%;
+}  
+#me{
+   margin-top: 20px;
+   width:380px;
+   height: 450px;
+   cursor: pointer;
+ }
+ #stadion_buttom{
+   width: 100%;
+   height: 100%;
+   cursor: pointer;
+   max-width: 400px;
+ }
+ #shop_buttom{
+   width: 100%;
+   height: 100%;
+   cursor: pointer;
+   max-width: 400px; 
+ }
+ #cassino_buttom{
+   width: 60%;
+   height: 60%;
+   cursor: pointer;
+   max-height: 300px;
+   max-width: 270px;
+ }
+.count{
+   position: absolute;
+   width: 99%;
+   text-align: center;
+   margin-top: 150px;
+}
+ #level_count{
+   text-align: center;
+   font-size: 50px;
+   color: aliceblue;
+   background-color: black;
+ }
+ #coin_count{
+ 
+   text-align: center;
+   font-size: 50px;
+   color: gold;
+   background-color: black;
+ }
+ @media only screen and (min-width: 391px) {
+   .count{
+    margin-top: 200px;
+   }
+}
+@media only screen and (min-width: 760px) {
+   .count{
+    margin-top: 300px;
+   }
+}
+@media only screen and (min-width: 1180px) {
+   .count{
+    margin-top: 350px;
+   }
+}
+/* shop */
+
+.shop{
+   background-image: url("/res/img/shop_vnitrek.jpg");
+   background-repeat: no-repeat;
+   background-position:left;
+   background-attachment: fixed;
+   background-size: cover;
+}
+#me3{
+   position: absolute;
+   width:380px;
+   height: 550px;
+   margin-top: 100px;
+   margin-left: 1000px;
+   cursor: pointer;
+}
+#kopacka{
+   position: absolute;
+   width: 300px;
+   height: 250px;
+   margin-top: 50px;
+   margin-left: 600px;
+   cursor: pointer;
+}
+#srdce{
+   position: absolute;
+   width: 300px;
+   height: 250px;
+   margin-top: 50px;
+   margin-left: 270px;
+   cursor: pointer;
+}
+#kopacka_cena{
+   position: absolute;
+   margin-top: 300px;
+   margin-left: 660px;
+   font-size:50px ;
+   text-align: center;
+   background-color: aliceblue;
+}
+#srdce_cena{
+   position: absolute;
+   margin-top: 300px;
+   margin-left: 340px;
+   font-size:50px ;
+   text-align: center;
+   background-color: aliceblue;
+}
+#home{
+   position: absolute;
+   width: 300px;
+   height: 250px;
+   margin-top: 10px;
+   margin-left: 80%;
+   cursor: pointer;
+}
+
+/* game */
+
+.game{
+   background-image: url("/res/img/game.png");
+   background-repeat: no-repeat;
+   background-position:center center;
+   background-attachment: fixed;
+   background-size: cover;
+}
+.float1{
+   margin-top: -600px;
+}
+#ball{
+   width: 230px;
+   height: 200px;
+   cursor: pointer;
+}
+#me2{
+   margin-top: 200px;
+   width:500px;
+   height: 500px;
+   
+}
+#me_hp{
+   width: 100px;
+   font-size: 90px;
+   background-color: gold;
+   margin-left: 34%;
+}
+#enemy{
+   margin-top: 200px;
+   width:450px;
+   height: 500px;
+   cursor: pointer;
+}
+#enemy_hp{
+   width: 100px;
+   font-size: 90px;
+   background-color: gold;
+   margin-left: 42%;
+}
+@media only screen and (mix-width: 900px) {
+   #me2 , #enemy{
+      width:100%;
+      height: 100%;
+   }
+ }
+
+   #center{
+      width: 99%;
+      text-align: center;
+   }
+/* casino */
+  #cassino{
+   background-color: darkgreen;
+  }
+  #text{
+   width: 99%;
+   text-align: center;
+   background-color: aliceblue;
+
+  }
+  #cassino_center{
+   margin-top: 300px;
+   width: 99%;
+   text-align: center;
+  }
+  #vsadit{
+   text-align: center;
+   width: 100px;
+   height: 150px;
+   font-size: 50px;
+   cursor: pointer;
+  }
+  #button_vsadit_cerna{
+   width: 300px;
+   height: 150px;
+   font-size: 50px;
+   cursor: pointer;
+  }
+  #button_vsadit_cervena{
+   width: 300px;
+   height: 150px;
+   font-size: 50px;
+   cursor: pointer;
+  }
+  .red_black{
+   text-align: center;
+  }
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+    margin: 0;
+  }
